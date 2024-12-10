@@ -217,7 +217,7 @@ export default enhance(MyComponent);
 
 Specifies a redux store and passes two additional props to the base component: a state value, and a function to dispatch actions.
 You'll likely want to use this state updater along with `withHandlers` to create specific updater functions.
-When props are given the the component the `RECEIVE_PROPS` action will be called with the props as its `payload`.
+When props are given to the component, the `RECEIVE_PROPS` action will be called with the props as its `payload`.
 
 ### Signature
 ```
